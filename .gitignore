@@ -48,3 +48,6 @@ porygon-logo.png
 # Logs
 logs
 *.log
+
+# Unused/Temporary Components
+# components/Trusted.tsx
