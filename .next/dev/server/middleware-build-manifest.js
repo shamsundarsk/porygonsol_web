@@ -1,0 +1,51 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": [
+      "static/chunks/ee084_next_dist_compiled_7ccd4de9._.js",
+      "static/chunks/ee084_next_dist_shared_lib_de38ec70._.js",
+      "static/chunks/ee084_next_dist_client_7e4a95c1._.js",
+      "static/chunks/ee084_next_dist_d71b4b60._.js",
+      "static/chunks/ee084_next_app_16f2b643.js",
+      "static/chunks/[next]_entry_page-loader_ts_90b03ae8._.js",
+      "static/chunks/ee084_react-dom_4d828a16._.js",
+      "static/chunks/ee084_fa82e893._.js",
+      "static/chunks/[root-of-the-server]__edae7df2._.js",
+      "static/chunks/Desktop_ porygon_p-web_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_ porygon_p-web_pages__app_e6dbea2f._.js"
+    ],
+    "/_error": [
+      "static/chunks/ee084_next_dist_compiled_7ccd4de9._.js",
+      "static/chunks/ee084_next_dist_shared_lib_f9e81b05._.js",
+      "static/chunks/ee084_next_dist_client_7e4a95c1._.js",
+      "static/chunks/ee084_next_dist_7b234244._.js",
+      "static/chunks/ee084_next_error_d0343e86.js",
+      "static/chunks/[next]_entry_page-loader_ts_11f44c32._.js",
+      "static/chunks/ee084_react-dom_4d828a16._.js",
+      "static/chunks/ee084_fa82e893._.js",
+      "static/chunks/[root-of-the-server]__e9b01db5._.js",
+      "static/chunks/Desktop_ porygon_p-web_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_ porygon_p-web_pages__error_09636ab7._.js"
+    ]
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/ee084_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_add25c0d._.js",
+    "static/chunks/ee084_next_dist_compiled_react-dom_520301b2._.js",
+    "static/chunks/ee084_next_dist_compiled_react-server-dom-turbopack_63b46d6a._.js",
+    "static/chunks/ee084_next_dist_compiled_next-devtools_index_4d828b24.js",
+    "static/chunks/ee084_next_dist_compiled_f1dbefaf._.js",
+    "static/chunks/ee084_next_dist_client_e4476d92._.js",
+    "static/chunks/ee084_next_dist_2586e9ec._.js",
+    "static/chunks/ee084_@swc_helpers_cjs_f5b7c5e8._.js",
+    "static/chunks/Desktop_ porygon_p-web_a0ff3932._.js",
+    "static/chunks/turbopack-Desktop_ porygon_p-web_808bc397._.js"
+  ]
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js"
+];

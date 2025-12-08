@@ -1,0 +1,824 @@
+[00:00:00.642] Server  LOG      ✓ Ready in 447ms
+[00:00:05.121] Server  ERROR    ⨯ ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+
+
+[00:00:05.124] Server  ERROR    ⨯ ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+
+
+[00:00:05.947] Browser ERROR   uncaughtError: Error: ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+
+
+[00:00:06.131] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:06.131] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:09.062] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:09.062] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:27.062] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:27.063] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:30.064] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:30.064] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (/Users/user/Desktop/ porygon/p-web/node_modules/tailwindcss/dist/lib.js:38:1629)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:37.062] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:39.442] Server  ERROR    ⨯ ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+
+
+[00:00:39.557] Browser ERROR   uncaughtError: Error: ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+
+
+[00:00:39.705] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:39.705] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:40.248] Server  ERROR    ⨯ ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+
+
+[00:00:40.337] Browser ERROR   uncaughtError: Error: ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+
+
+[00:00:40.473] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:40.473] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:44.064] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:44.064] Browser ERROR   ./Desktop/ porygon/p-web/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: /Users/user/Desktop/ porygon/p-web/app/globals.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    [at Input.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (/Users/user/Desktop/ porygon/p-web/node_modules/@tailwindcss/postcss/dist/index.js:10:6912)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at async LazyResult.runAsync (turbopack:///[project]/Desktop/ porygon/p-web/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at async transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at async run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
+
+Import trace:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/app/globals.css [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/layout.tsx [Server Component]
+[00:00:58.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:58.862] Browser WARN    Image with src "/porygon-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:49.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:49.705] Browser WARN    Image with src "/porygon-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:07:50.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:59.170] Server  LOG      ✓ Compiled in 42ms
+[00:08:10.475] Server  LOG      ✓ Compiled in 35ms
+[00:08:17.384] Server  LOG      ✓ Compiled in 23ms
+[00:08:23.653] Server  LOG      ✓ Compiled in 38ms
+[00:08:32.927] Server  LOG      ✓ Compiled in 28ms
+[00:08:42.007] Server  LOG      ✓ Compiled in 73ms
+[00:08:50.389] Server  LOG      ✓ Compiled in 24ms
+[00:09:02.944] Server  LOG      ✓ Compiled in 36ms
+[00:09:10.543] Server  LOG      ✓ Compiled in 67ms
+[00:09:27.216] Server  LOG      ✓ Compiled in 33ms
+[00:09:40.228] Server  LOG      ✓ Compiled in 95ms
+[00:14:41.484] Server  LOG      ✓ Compiled in 331ms
+[00:14:54.770] Server  LOG      ✓ Compiled in 49ms
+[00:15:10.959] Server  LOG      ✓ Compiled in 415ms
+[00:16:24.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:24.423] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[00:17:13.152] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:13.259] Browser WARN    Image with src "/porygon-logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:17:25.995] Server  LOG      ✓ Compiled in 52ms
+[03:36:53.516] Server  LOG      ✓ Compiled in 23ms
+[03:36:53.856] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:36:53.986] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[03:37:02.133] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:37:02.259] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[03:58:17.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:58:17.662] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[03:58:19.569] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:58:19.685] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[04:49:19.823] Server  LOG      ✓ Compiled in 110ms
+[04:49:31.953] Server  LOG      ✓ Compiled in 138ms
+[04:49:56.128] Server  LOG      ✓ Compiled in 190ms
+[04:50:03.926] Server  LOG      ✓ Compiled in 148ms
+[04:50:13.406] Server  LOG      ✓ Compiled in 264ms
+[04:53:32.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:53:32.276] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[04:56:06.686] Server  LOG      ✓ Compiled in 205ms
+[05:22:12.072] Server  LOG      ✓ Compiled in 191ms
+[05:22:21.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:22:21.185] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[05:22:29.138] Server  LOG      ✓ Compiled in 79ms
+[05:22:53.084] Server  LOG      ✓ Compiled in 41ms
+[05:22:55.025] Server  LOG      ✓ Compiled in 79ms
+[05:23:06.089] Server  LOG      ✓ Compiled in 30ms
+[05:23:15.334] Server  LOG      ✓ Compiled in 77ms
+[05:23:19.398] Server  LOG      ✓ Compiled in 48ms
+[05:23:23.648] Server  LOG      ✓ Compiled in 32ms
+[05:23:25.855] Server  LOG      ✓ Compiled in 55ms
+[05:23:31.507] Server  LOG      ✓ Compiled in 23ms
+[05:23:33.008] Server  LOG      ✓ Compiled in 33ms
+[05:24:44.581] Server  LOG      ✓ Compiled in 336ms
+[05:25:56.721] Server  LOG      ✓ Compiled in 47ms
+[05:26:25.493] Server  LOG      ✓ Compiled in 780ms
+[05:27:19.966] Server  LOG      ✓ Compiled in 150ms
+[05:27:21.235] Browser ERROR   ./Desktop/ porygon/p-web/components/Footer.tsx:15:13
+Parsing ecmascript source code failed
+  13 |             enableWaves={true}
+  14 |             asciiFontSize={}
+> 15 |             textFontSize={120}
+     |             ^^^^^^^^^^^^
+  16 |             textColor="#d7df23"
+  17 |             planeBaseHeight={6}
+  18 |           />
+
+Expected '</', got 'textFontSize'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/components/Footer.tsx [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/page.tsx [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ porygon/p-web/components/Footer.tsx [Client Component SSR]
+    ./Desktop/ porygon/p-web/app/page.tsx [Client Component SSR]
+    ./Desktop/ porygon/p-web/app/page.tsx [Server Component]
+[05:27:27.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[05:28:51.654] Server  LOG      ✓ Compiled in 120ms
+[05:29:02.110] Server  LOG      ✓ Compiled in 25ms
+[05:41:20.344] Server  LOG      ✓ Compiled in 178ms
+[05:41:31.475] Server  LOG      ✓ Compiled in 127ms
+[05:53:00.129] Server  LOG      ✓ Compiled in 217ms
+[05:53:11.966] Server  LOG      ✓ Compiled in 65ms
+[05:53:36.770] Server  LOG      ✓ Compiled in 53ms
+[05:53:44.883] Server  LOG      ✓ Compiled in 109ms
+[05:53:53.420] Server  LOG      ✓ Compiled in 54ms
+[05:53:54.066] Browser ERROR   ./Desktop/ porygon/p-web/components/FAQ.tsx:83:1
+Parsing ecmascript source code failed
+  81 |     </section>
+  82 |   )
+> 83 | }
+     | ^
+  84 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/components/FAQ.tsx [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/page.tsx [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ porygon/p-web/components/FAQ.tsx [Client Component SSR]
+    ./Desktop/ porygon/p-web/app/page.tsx [Client Component SSR]
+    ./Desktop/ porygon/p-web/app/page.tsx [Server Component]
+[05:53:59.548] Server  LOG      ✓ Compiled in 15ms
+[05:54:00.061] Browser ERROR   ./Desktop/ porygon/p-web/components/FAQ.tsx:83:1
+Parsing ecmascript source code failed
+  81 |     </section>
+  82 |   )
+> 83 | }
+     | ^
+  84 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ porygon/p-web/components/FAQ.tsx [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/page.tsx [Client Component Browser]
+    ./Desktop/ porygon/p-web/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ porygon/p-web/components/FAQ.tsx [Client Component SSR]
+    ./Desktop/ porygon/p-web/app/page.tsx [Client Component SSR]
+    ./Desktop/ porygon/p-web/app/page.tsx [Server Component]
+[05:54:11.498] Server  LOG      ✓ Compiled in 49ms
+[05:54:22.489] Server  LOG      ✓ Compiled in 20ms
+[13:13:31.982] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:13:32.225] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
+[13:13:33.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:13:35.897] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:13:36.053] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/ ...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="bg-black text-[#d7df23]"
+                            style={{
++                             fontFamily: "'Press Start 2P', cursive"
++                             fontSize: "1rem"
+-                             font-family: "\"Press Start 2P\", cursive"
+-                             font-size: "1rem"
+                            }}
+                          >
+                  ...
+
