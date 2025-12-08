@@ -6,24 +6,34 @@ Your Cal.com API key is stored in `.env.local`:
 NEXT_PUBLIC_CAL_API_KEY=cal_live_63fc5c1259deecfb6639ec9abddd75ee
 ```
 
-## Setup Instructions
+## Quick Setup Instructions
 
-### 1. Configure Your Cal.com Account
-1. Go to https://app.cal.com
-2. Log in with your account
-3. Create an event type (e.g., "30min Consultation")
-4. Note your username from the URL
+### Step 1: Set Up Your Cal.com Account
+1. Go to https://app.cal.com and sign up/login
+2. Complete your profile setup
+3. Go to "Event Types" and create a new event (e.g., "30min Consultation")
+4. Configure your availability and meeting details
+5. Note your username from the URL (e.g., `app.cal.com/YOUR_USERNAME`)
 
-### 2. Update the Component
-In `components/Appointments.tsx`, replace `your-username/30min` with your actual Cal.com booking link:
+### Step 2: Update the Component
+In `components/Appointments.tsx`, update these two lines:
 ```tsx
-data-cal-link="YOUR_USERNAME/YOUR_EVENT_TYPE"
+const calUsername = 'YOUR_CAL_USERNAME'  // Replace with your Cal.com username
+const eventType = 'YOUR_EVENT_TYPE'      // Replace with your event type slug
 ```
 
-For example:
-- If your username is "porygon"
-- And your event type is "consultation"
-- Use: `data-cal-link="porygon/consultation"`
+**Example:**
+- If your Cal.com URL is: `https://cal.com/porygon/consultation`
+- Then use:
+  ```tsx
+  const calUsername = 'porygon'
+  const eventType = 'consultation'
+  ```
+
+### Step 3: Test It
+1. Save the file
+2. Refresh your website
+3. The calendar should now appear inline on the appointments section
 
 ### 3. Customize the Embed
 You can customize the Cal.com embed with these options in the `data-cal-config` attribute:

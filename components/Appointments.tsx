@@ -1,58 +1,11 @@
 'use client'
 
-import { useEffect } from 'react'
-
-declare global {
-  interface Window {
-    Cal: any
-  }
-}
-
 export default function Appointments() {
-  useEffect(() => {
-    // Load Cal.com embed script if not already loaded
-    if (!document.querySelector('script[src="https://app.cal.com/embed/embed.js"]')) {
-      const script = document.createElement('script')
-      script.src = 'https://app.cal.com/embed/embed.js'
-      script.async = true
-      document.head.appendChild(script)
-
-      // Initialize Cal.com after script loads
-      script.onload = () => {
-        if (typeof window !== 'undefined' && window.Cal) {
-          window.Cal('init', { origin: 'https://app.cal.com' })
-          
-          // Create inline embed
-          window.Cal('inline', {
-            elementOrSelector: '#cal-embed-container',
-            calLink: 'your-username/30min',
-            layout: 'month_view',
-            config: {
-              theme: 'dark',
-              name: 'Porygon Consultation',
-              email: '',
-              notes: '',
-              guests: [],
-              hideEventTypeDetails: false
-            }
-          })
-        }
-      }
-    } else {
-      // Script already loaded, just initialize
-      if (typeof window !== 'undefined' && window.Cal) {
-        window.Cal('inline', {
-          elementOrSelector: '#cal-embed-container',
-          calLink: 'your-username/30min',
-          layout: 'month_view',
-          config: {
-            theme: 'dark'
-          }
-        })
-      }
-    }
-  }, [])
-
+  // Replace 'YOUR_CAL_USERNAME' with your actual Cal.com username
+  // Replace 'YOUR_EVENT_TYPE' with your event type slug (e.g., '30min', 'consultation')
+  const calUsername = 'YOUR_CAL_USERNAME'
+  const eventType = 'YOUR_EVENT_TYPE'
+  
   return (
     <section id="appointments" className="py-24 px-5 bg-[#111]">
       <div className="max-w-5xl mx-auto text-center">
@@ -63,15 +16,19 @@ export default function Appointments() {
           Schedule a call with our team to discuss your project
         </p>
         
-        <div className="bg-black border-2 border-[#d7df23] rounded-xl p-4 md:p-8">
-          {/* Cal.com Inline Embed Container */}
-          <div 
-            id="cal-embed-container"
-            style={{ 
-              width: '100%', 
-              height: '700px',
+        <div className="bg-black border-2 border-[#d7df23] rounded-xl p-4 md:p-8 overflow-hidden">
+          {/* Cal.com iFrame Embed - Shows calendar inline */}
+          <iframe
+            src={`https://cal.com/${calUsername}/${eventType}?embed=true&theme=dark`}
+            width="100%"
+            height="700"
+            frameBorder="0"
+            style={{
+              border: 'none',
+              borderRadius: '8px',
               minHeight: '700px'
             }}
+            title="Book a consultation"
           />
         </div>
 
