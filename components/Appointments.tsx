@@ -10,23 +10,45 @@ declare global {
 
 export default function Appointments() {
   useEffect(() => {
-    // Load Cal.com embed script
-    const script = document.createElement('script')
-    script.src = 'https://app.cal.com/embed/embed.js'
-    script.async = true
-    document.body.appendChild(script)
+    // Load Cal.com embed script if not already loaded
+    if (!document.querySelector('script[src="https://app.cal.com/embed/embed.js"]')) {
+      const script = document.createElement('script')
+      script.src = 'https://app.cal.com/embed/embed.js'
+      script.async = true
+      document.head.appendChild(script)
 
-    // Initialize Cal.com after script loads
-    script.onload = () => {
-      if (typeof window !== 'undefined' && window.Cal) {
-        window.Cal('init', { origin: 'https://app.cal.com' })
+      // Initialize Cal.com after script loads
+      script.onload = () => {
+        if (typeof window !== 'undefined' && window.Cal) {
+          window.Cal('init', { origin: 'https://app.cal.com' })
+          
+          // Create inline embed
+          window.Cal('inline', {
+            elementOrSelector: '#cal-embed-container',
+            calLink: 'your-username/30min',
+            layout: 'month_view',
+            config: {
+              theme: 'dark',
+              name: 'Porygon Consultation',
+              email: '',
+              notes: '',
+              guests: [],
+              hideEventTypeDetails: false
+            }
+          })
+        }
       }
-    }
-
-    return () => {
-      // Cleanup script on unmount
-      if (document.body.contains(script)) {
-        document.body.removeChild(script)
+    } else {
+      // Script already loaded, just initialize
+      if (typeof window !== 'undefined' && window.Cal) {
+        window.Cal('inline', {
+          elementOrSelector: '#cal-embed-container',
+          calLink: 'your-username/30min',
+          layout: 'month_view',
+          config: {
+            theme: 'dark'
+          }
+        })
       }
     }
   }, [])
@@ -41,26 +63,16 @@ export default function Appointments() {
           Schedule a call with our team to discuss your project
         </p>
         
-        <div className="bg-black border-2 border-[#d7df23] rounded-xl p-4 md:p-8 min-h-[600px]">
-          {/* Cal.com Inline Embed */}
+        <div className="bg-black border-2 border-[#d7df23] rounded-xl p-4 md:p-8">
+          {/* Cal.com Inline Embed Container */}
           <div 
-            className="cal-inline-embed"
-            data-cal-link="your-username/30min"
-            data-cal-config='{"layout":"month_view","theme":"dark"}'
+            id="cal-embed-container"
             style={{ 
               width: '100%', 
-              height: '100%', 
-              minHeight: '550px',
-              overflow: 'auto'
+              height: '700px',
+              minHeight: '700px'
             }}
-          >
-            <button
-              data-cal-link="your-username/30min"
-              className="w-full bg-[#d7df23] hover:bg-[#c5cd1f] text-black font-bold py-4 px-8 rounded-lg transition glow-btn text-lg"
-            >
-              Click to Schedule Your Consultation
-            </button>
-          </div>
+          />
         </div>
 
         <p className="text-[#888] text-sm mt-6">
