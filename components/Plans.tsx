@@ -1,4 +1,10 @@
+'use client'
+
+import { useState } from 'react'
+
 export default function Plans() {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+
   const plans = [
     {
       name: 'Starter',
@@ -62,13 +68,19 @@ export default function Plans() {
           {plans.map((plan, index) => (
             <div 
               key={index}
-              className={`rounded-xl p-8 transition-all duration-300 group ${
-                plan.highlighted 
-                  ? 'bg-[#d7df23] text-black scale-105' 
-                  : 'bg-black border-2 border-gray-800 hover:bg-[#d7df23] hover:border-[#d7df23] hover:scale-105'
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              className={`rounded-xl p-8 transition-all duration-300 ${
+                hoveredIndex === index
+                  ? 'bg-[#d7df23] text-black scale-105 shadow-[0_0_40px_rgba(215,223,35,0.5)]' 
+                  : hoveredIndex !== null
+                  ? 'bg-black border-2 border-gray-900 opacity-40'
+                  : plan.highlighted
+                  ? 'bg-[#d7df23] text-black scale-105'
+                  : 'bg-black border-2 border-gray-800'
               }`}
             >
-              {plan.highlighted && (
+              {(plan.highlighted && hoveredIndex === null) && (
                 <div className="text-center mb-4">
                   <span className="bg-black text-[#d7df23] px-4 py-1 rounded-full text-xs font-bold">
                     MOST POPULAR
@@ -76,23 +88,31 @@ export default function Plans() {
                 </div>
               )}
               
-              <h3 className={`text-2xl mb-2 text-center transition-colors ${plan.highlighted ? 'text-black' : 'text-[#d7df23] group-hover:text-black'}`}>
+              <h3 className={`text-2xl mb-2 text-center transition-colors ${
+                hoveredIndex === index || plan.highlighted ? 'text-black' : 'text-[#d7df23]'
+              }`}>
                 {plan.name}
               </h3>
               
               <div className="text-center mb-4">
-                <span className={`text-4xl font-bold transition-colors ${plan.highlighted ? 'text-black' : 'text-white group-hover:text-black'}`}>
+                <span className={`text-4xl font-bold transition-colors ${
+                  hoveredIndex === index || plan.highlighted ? 'text-black' : 'text-white'
+                }`}>
                   {plan.price}
                 </span>
               </div>
               
-              <p className={`text-center mb-6 text-sm transition-colors ${plan.highlighted ? 'text-black' : 'text-[#aaa] group-hover:text-black'}`}>
+              <p className={`text-center mb-6 text-sm transition-colors ${
+                hoveredIndex === index || plan.highlighted ? 'text-black' : 'text-[#aaa]'
+              }`}>
                 {plan.description}
               </p>
               
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature, i) => (
-                  <li key={i} className={`flex items-start text-sm transition-colors ${plan.highlighted ? 'text-black' : 'text-[#ccc] group-hover:text-black'}`}>
+                  <li key={i} className={`flex items-start text-sm transition-colors ${
+                    hoveredIndex === index || plan.highlighted ? 'text-black' : 'text-[#ccc]'
+                  }`}>
                     <span className="mr-2">✓</span>
                     <span>{feature}</span>
                   </li>
@@ -102,9 +122,9 @@ export default function Plans() {
               <a
                 href="#appointments"
                 className={`block text-center py-3 rounded-lg font-bold transition ${
-                  plan.highlighted
+                  hoveredIndex === index || plan.highlighted
                     ? 'bg-black text-[#d7df23] hover:bg-gray-900'
-                    : 'bg-black text-[#d7df23] hover:bg-gray-900 group-hover:bg-black'
+                    : 'bg-black text-[#d7df23] hover:bg-gray-900'
                 }`}
               >
                 Get Started

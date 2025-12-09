@@ -14,7 +14,7 @@ export default function Appointments() {
         <div className="bg-black border-2 border-[#d7df23] rounded-xl p-4 md:p-8 overflow-hidden">
           {/* Cal.com iFrame Embed - Shows calendar inline */}
           <iframe
-            src="https://cal.com/sham-sham-r9hsdj?embed=true&theme=dark"
+            src="https://cal.com/shane-israel-mdk9rm"
             width="100%"
             height="700"
             frameBorder="0"
@@ -27,10 +27,6 @@ export default function Appointments() {
             allow="camera; microphone; autoplay; display-capture"
           />
         </div>
-
-        <p className="text-[#888] text-sm mt-6">
-          Powered by Cal.com - Secure and reliable scheduling
-        </p>
       </div>
     </section>
   )
