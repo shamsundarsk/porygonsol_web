@@ -1,28 +1,28 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      name: 'Francesco',
-      role: 'Founder & CEO, Tremik',
+      name: 'Aadhavan',
+      role: 'Founder, Gym',
       text: 'The Framer site Porygon built for us is a game-changer. Stunning visuals and effortless performance—exactly what we needed.'
     },
     {
-      name: 'Sarah Chen',
-      role: 'Marketing Director, TechFlow',
+      name: 'Nithila',
+      role: 'Founder, Boutique',
       text: 'Working with Porygon transformed our online presence. Our conversion rate doubled within the first month of launch.'
     },
     {
-      name: 'Marcus Johnson',
+      name: 'Saravanan',
       role: 'CEO, StartupHub',
       text: 'Professional, fast, and results-driven. Porygon delivered beyond our expectations and on time.'
     },
     {
-      name: 'Emily Rodriguez',
+      name: 'Yash',
       role: 'Product Lead, InnovateCo',
       text: 'The attention to detail and strategic approach made all the difference. Highly recommend Porygon for any web project.'
     },
     {
-      name: 'David Kim',
-      role: 'Founder, GrowthLabs',
+      name: 'Karthik',
+      role: 'Founder, YumSamiyal',
       text: 'Our website now reflects our brand perfectly. Porygon understood our vision and brought it to life beautifully.'
     },
     {

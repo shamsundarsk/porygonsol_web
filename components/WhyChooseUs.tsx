@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
       description: 'Most projects completed in 2-4 weeks. We work efficiently without compromising on quality or attention to detail.'
     },
     {
-      title: 'SEO Optimized',
+      title: 'SEO & GEO Optimized',
       description: 'Every website is built with SEO best practices from day one, ensuring you rank well and attract organic traffic.'
     }
   ]

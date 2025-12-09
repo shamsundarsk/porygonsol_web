@@ -9,7 +9,7 @@ export default function ScrollRevealSection() {
         <ScrollReveal
           baseOpacity={0}
           enableBlur={true}
-          baseRotation={5}
+          baseRotation={9}
           blurStrength={10}
           containerClassName="text-center"
           textClassName="text-[#d7df23]"

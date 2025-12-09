@@ -2151,11 +2151,11 @@ function Footer() {
                                 },
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$__porygon$2f$p$2d$web$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$__porygon$2f$p$2d$web$2f$components$2f$ASCIIText$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     text: "P o r y g o n !",
-                                    enableWaves: false,
+                                    enableWaves: true,
                                     asciiFontSize: 2,
                                     textFontSize: 500,
                                     textColor: "#d7df23",
-                                    planeBaseHeight: 8
+                                    planeBaseHeight: 2
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ porygon/p-web/components/Footer.tsx",
                                     lineNumber: 14,

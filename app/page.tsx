@@ -7,7 +7,7 @@ import Hero from '@/components/Hero'
 import ScrollRevealSection from '@/components/ScrollRevealSection'
 import Services from '@/components/Services'
 import WhyChooseUs from '@/components/WhyChooseUs'
-import Plans from '@/components/Plans'
+//import Plans from '@/components/Plans'
 import Testimonials from '@/components/Testimonials'
 import About from '@/components/About'
 import Appointments from '@/components/Appointments'
@@ -22,7 +22,6 @@ export default function Home() {
       <ScrollRevealSection />
       <Services />
       <WhyChooseUs />
-      <Plans />
       <Testimonials />
       <About />
       <Appointments />

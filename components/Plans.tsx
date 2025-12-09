@@ -8,7 +8,7 @@ export default function Plans() {
   const plans = [
     {
       name: 'Starter',
-      price: '$999',
+      price: '₹7000',
       description: 'Perfect for small businesses and startups',
       features: [
         'Up to 5 pages',
@@ -22,16 +22,15 @@ export default function Plans() {
     },
     {
       name: 'Professional',
-      price: '$2,499',
+      price: '₹15,000',
       description: 'Ideal for growing businesses',
       features: [
         'Up to 15 pages',
         'Advanced animations',
-        'Full SEO optimization',
+        'Full SEO & GEO optimization',
         'E-commerce integration',
         '3 months support',
         'Analytics setup',
-        'WhatsApp integration',
         'Custom features'
       ],
       highlighted: true
